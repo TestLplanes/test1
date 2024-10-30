@@ -48,7 +48,9 @@
 					<h2>Les membres fondateurs</h2>
 					<div class="directionRow">
 						<article>
+							<!-- ajout des images -->
 							<img src="images/soraya.png" alt="photo_soraya">
+							<!-- spécification de la taille de police (différente du css) et de l'écart entre les blocs -->
 							<h3 style="font-weight: 600; margin-block-end:-0.5em;">Soraya</h3>
 							<p>Longboard</p>
 						</article>
@@ -64,9 +66,16 @@
 						</article>
 					</div>
 				</section>
-				<section>
-					<div class="directionRow">
-						<a class="button buttonDrakGreyColor" href="documents/planning">Télécharger le planning de cours</a>
+				<!-- ajout de la couleur de fond -->
+				<section class="sectionLightGreyBackground">
+					<!-- ajout du titre-->
+					<h2>Découvrez nous cours !</h2>
+					<!-- modification de la classe directionRow en directionColum pour afficher les boutons l'un en dessous de l'autre et non côte à côte-->
+					<div class="directionColumn">
+						<!-- modification des classes pour changer la forme et la couleur des boutons + comportement au survol-->
+						<a class="button buttonRounded buttonMainColor buttonHighlight" href="documents/planning-adultes.pdf">Télécharger le planning de cours pour adultes</a>
+						<!-- ajout du second bouton-->
+						<a class="button buttonRounded buttonSecondColor buttonHighlight" href="documents/planning-enfants.pdf">Télécharger le planning de cours pour enfants</a>
 					</div>
 				</section>
 			</main>
